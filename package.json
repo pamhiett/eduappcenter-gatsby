@@ -1,9 +1,10 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "eduappcenter-react",
+  "description": "Hack week project to recreate EduAppCenter.com with Instructure UI and Gatsby",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Arlo Bryan Guthrie <aguthrie@instructure.com>",
   "dependencies": {
+    "@instructure/ui-layout": "^5.2.0",
     "gatsby": "^1.9.241",
     "gatsby-link": "^1.6.39",
     "gatsby-plugin-react-helmet": "^2.0.8",
@@ -20,6 +21,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.7.0",
     "prettier": "^1.11.1"
   }
 }
