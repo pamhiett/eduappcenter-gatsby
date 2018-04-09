@@ -4,7 +4,9 @@
   "version": "1.0.0",
   "author": "Arlo Bryan Guthrie <aguthrie@instructure.com>",
   "dependencies": {
+    "@instructure/ui-elements": "^5.2.0",
     "@instructure/ui-layout": "^5.2.0",
+    "@instructure/ui-themes": "^5.2.0",
     "gatsby": "^1.9.241",
     "gatsby-link": "^1.6.39",
     "gatsby-plugin-react-helmet": "^2.0.8",

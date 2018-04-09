@@ -1,6 +1,8 @@
+/* eslint-ignore */
+
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Default Starter',
+    title: 'EduAppCenter',
   },
   plugins: ['gatsby-plugin-react-helmet'],
-};
+}
