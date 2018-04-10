@@ -1,13 +1,15 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import Wrapper from '../components/Wrapper'
+import Link from '@instructure/ui-elements/lib/components/Link'
 
 const IndexPage = () => (
-  <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
-  </div>
+  <Wrapper padding="large 0">
+    <h1>
+      An open LTI™ app collection. Browse apps below or{' '}
+      <Link to="/about">learn more</Link>
+    </h1>
+    <p>APPS HERE</p>
+  </Wrapper>
 )
 
 export default IndexPage

@@ -1,10 +1,15 @@
 import React from 'react'
+import Wrapper from '../components/Wrapper'
+import Heading from '@instructure/ui-elements/lib/components/Heading'
+import Text from '@instructure/ui-elements/lib/components/Text'
 
 const NotFoundPage = () => (
-  <div>
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-  </div>
+  <Wrapper padding="large 0">
+    <Heading as="h1">The page you were looking for doesn’t exist.</Heading>
+    <Text as="p">
+      You may have mistyped the address or the page may have moved.
+    </Text>
+  </Wrapper>
 )
 
 export default NotFoundPage
