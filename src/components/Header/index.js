@@ -6,10 +6,10 @@ import Heading from '@instructure/ui-elements/lib/components/Heading'
 import Flex, { FlexItem } from '@instructure/ui-layout/lib/components/Flex'
 
 const Header = () => (
-  <Wrapper as="header" withBorder padding="x-small">
+  <Wrapper as="header" withBorder padding=" medium x-small">
     <Flex justifyItems="space-between">
       <FlexItem>
-        <Link to="/">
+        <Link href="/">
           {/* TODO: Replace with logo */}
           EduAppCenter
         </Link>
